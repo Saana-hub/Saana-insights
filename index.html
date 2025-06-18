@@ -1,15 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Product Insights</title>
-  <style>
-    body { font-family: Arial; text-align: center; margin-top: 50px; }
-    h1 { color: #2c3e50; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung M11 Review Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <h1>Welcome to Product Insights</h1>
-  <p>Honest reviews. Smart decisions.</p>
+    <header>
+        <div class="container">
+            <h1>Samsung Galaxy M11 Review Hub</h1>
+            <p>Compiling the best YouTube reviews in one place</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews/camera-review.html">Camera</a></li>
+                <li><a href="reviews/performance-review.html">Performance</a></li>
+                <li><a href="reviews/battery-review.html">Battery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <img src="images/m11-main.jpg" alt="Samsung Galaxy M11">
+            <div class="hero-text">
+                <h2>Is the Samsung M11 Worth It?</h2>
+                <p>We've analyzed reviews from top YouTube channels to bring you the definitive verdict.</p>
+            </div>
+        </section>
+
+        <section class="featured-reviews">
+            <h2>Featured YouTube Reviews</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="youtuber">
+                        <img src="images/youtuber1.jpg" alt="Tech Reviewer 1">
+                        <h3>TechWithRaj</h3>
+                    </div>
+                    <div class="review-content">
+                        <h4>"Best Budget Phone Under 10K?"</h4>
+                        <p>Rating: 4.2/5</p>
+                        <a href="#" class="btn">Watch Summary</a>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="youtuber">
+                        <img src="images/youtuber2.jpg" alt="Tech Reviewer 2">
+                        <h3>GadgetGuru</h3>
+                    </div>
+                    <div class="review-content">
+                        <h4>"Samsung M11 - Hidden Gem?"</h4>
+                        <p>Rating: 4.5/5</p>
+                        <a href="#" class="btn">Watch Summary</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specs">
+            <h2>Key Specifications</h2>
+            <table>
+                <tr>
+                    <th>Display</th>
+                    <td>6.4" HD+ PLS TFT</td>
+                </tr>
+                <tr>
+                    <th>Processor</th>
+                    <td>Snapdragon 450</td>
+                </tr>
+                <tr>
+                    <th>RAM</th>
+                    <td>3GB/4GB</td>
+                </tr>
+                <tr>
+                    <th>Storage</th>
+                    <td>32GB/64GB</td>
+                </tr>
+                <tr>
+                    <th>Camera</th>
+                    <td>Triple: 13MP + 5MP + 2MP</td>
+                </tr>
+                <tr>
+                    <th>Battery</th>
+                    <td>5000mAh</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Samsung M11 Review Hub. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

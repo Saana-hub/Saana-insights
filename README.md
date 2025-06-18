@@ -32,3 +32,4 @@ A website compiling reviews of the Samsung Galaxy M11 from popular YouTube chann
 ## Contributing
 
 Contributions are welcome! Please open an issue or pull request for any improvements.
+Still learning the basics of coding.

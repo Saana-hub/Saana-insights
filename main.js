@@ -18,3 +18,26 @@ document.addEventListener('DOMContentLoaded', function() {
     // - Review rating system
     // - Comparison tools
 });
+// Dark Mode Toggle
+const darkModeToggle = document.createElement('button');
+darkModeToggle.id = 'darkModeToggle';
+darkModeToggle.innerHTML = '🌓';
+document.body.prepend(darkModeToggle);
+
+darkModeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+});
+
+// Check for saved preference
+if (localStorage.getItem('darkMode') === 'true') {
+  document.body.classList.add('dark-mode');
+}
+// Add at start of file
+document.body.classList.add('loading');
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.body.classList.remove('loading');
+  }, 1000);
+});
